@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { devtools, persist } from "zustand/middleware";
+import { persist } from "zustand/middleware";
 import pick from "lodash/pick";
 
 import { PlaygroundPromptType } from "@/types/playground";
